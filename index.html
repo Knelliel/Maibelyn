@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Maibelyn - Magia y Amor</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+:root{--pd:#2E1065;--pm:#6B21A8;--pl:#A855F7;--pg:#C084FC;--gd:#B45309;--gm:#F59E0B;--gl:#FCD34D;--gg:#FDE68A;--pp:#F5E6C8;--pd2:#E8D5A3;--ik:#2D1810}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Cormorant Garamond',serif;background:#0a0514;color:var(--pp);overflow-x:hidden;min-height:100vh}
+#mc{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none}
+#ls{position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at center,#1a0b2e 0%,#0a0514 70%,#000 100%);transition:opacity 1.5s ease,transform 1.5s ease}
+#ls.h{opacity:0;transform:scale(1.1);pointer-events:none}
+.lc{text-align:center;padding:2rem;max-width:600px;width:90%;position:relative;z-index:2}
+.lt{font-family:'Cinzel',serif;font-size:2.5rem;font-weight:700;color:var(--gl);text-shadow:0 0 20px var(--pg),0 0 40px var(--pm);margin-bottom:.5rem;letter-spacing:3px;animation:tg 3s ease-in-out infinite alternate}
+.ls{font-family:'Great Vibes',cursive;font-size:1.8rem;color:var(--pg);margin-bottom:2rem;opacity:.9}
+@keyframes tg{from{text-shadow:0 0 20px var(--pg),0 0 40px var(--pm)}to{text-shadow:0 0 30px var(--gg),0 0 60px var(--pl),0 0 80px var(--pm)}}
+.cc{background:rgba(107,33,168,.15);border:2px solid var(--pm);border-radius:20px;padding:2rem;margin:2rem 0;backdrop-filter:blur(10px);box-shadow:0 0 30px rgba(107,33,168,.3),inset 0 0 30px rgba(107,33,168,.1);position:relative;overflow:hidden}
+.cc::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:linear-gradient(45deg,transparent,rgba(168,85,247,.1),transparent);animation:sh 4s linear infinite}
+@keyframes sh{0%{transform:translateX(-100%) translateY(-100%) rotate(45deg)}100%{transform:translateX(100%) translateY(100%) rotate(45deg)}}
+.cl{font-family:'Cinzel',serif;font-size:1rem;color:var(--gl);margin-bottom:1rem;letter-spacing:4px;text-transform:uppercase}
+.cd{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;position:relative;z-index:1}
+.ci{background:rgba(46,16,101,.6);border:1px solid var(--pl);border-radius:12px;padding:1rem;min-width:80px;box-shadow:0 0 15px rgba(168,85,247,.2)}
+.cv{font-family:'Cinzel',serif;font-size:2.5rem;font-weight:900;color:var(--gl);display:block;line-height:1;text-shadow:0 0 10px var(--gm)}
+.cu{font-size:.8rem;color:var(--pg);text-transform:uppercase;letter-spacing:2px;margin-top:.3rem}
+.ps{margin-top:2rem;position:relative;z-index:1}
+.pl{font-family:'Cinzel',serif;font-size:.9rem;color:var(--pg);margin-bottom:.8rem;letter-spacing:2px}
+.pw{position:relative;display:inline-block;width:100%;max-width:350px}
+.pi{width:100%;padding:1rem 1.5rem;font-family:'Cinzel',serif;font-size:1rem;color:var(--gl);background:rgba(46,16,101,.4);border:2px solid var(--pm);border-radius:50px;outline:none;text-align:center;letter-spacing:3px;transition:all .3s ease;box-shadow:0 0 20px rgba(107,33,168,.2)}
+.pi::placeholder{color:rgba(192,132,252,.5);letter-spacing:2px}
+.pi:focus{border-color:var(--gm);box-shadow:0 0 30px rgba(245,158,11,.3),0 0 50px rgba(107,33,168,.2);background:rgba(46,16,101,.6)}
+.ub{margin-top:1.5rem;padding:1rem 3rem;font-family:'Cinzel',serif;font-size:1.1rem;font-weight:600;color:var(--pd);background:linear-gradient(135deg,var(--gm),var(--gl));border:none;border-radius:50px;cursor:pointer;letter-spacing:3px;text-transform:uppercase;transition:all .3s ease;box-shadow:0 0 20px rgba(245,158,11,.4);position:relative;overflow:hidden}
+.ub::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);transition:left .5s ease}
+.ub:hover::before{left:100%}
+.ub:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(245,158,11,.6)}
+.em{color:#EF4444;font-size:.95rem;margin-top:1rem;opacity:0;transform:translateY(-10px);transition:all .3s ease;font-family:'Cinzel',serif;text-shadow:0 0 10px rgba(239,68,68,.5)}
+.em.s{opacity:1;transform:translateY(0)}
+.sk{animation:sk .5s ease}
+@keyframes sk{0%,100%{transform:translateX(0)}20%{transform:translateX(-10px)}40%{transform:translateX(10px)}60%{transform:translateX(-10px)}80%{transform:translateX(10px)}}
+#mp{display:none;position:relative;z-index:1;min-height:100vh;padding:2rem 1rem;opacity:0;transition:opacity 2s ease}
+#mp.v{display:block;opacity:1}
+.mc{max-width:800px;margin:0 auto;position:relative}
+.pw2{position:relative;margin:2rem auto;max-width:700px;perspective:1500px}
+.p{background:linear-gradient(135deg,var(--pp) 0%,#EDE0C0 50%,var(--pd2) 100%);border-radius:8px;padding:4rem 3rem;position:relative;color:var(--ik);box-shadow:0 0 40px rgba(168,85,247,.3),0 20px 60px rgba(0,0,0,.5),inset 0 0 100px rgba(139,90,43,.1);transform-style:preserve-3d;animation:po 2s ease-out;overflow:hidden}
+@keyframes po{0%{transform:rotateX(-90deg) scale(.8);opacity:0}100%{transform:rotateX(0) scale(1);opacity:1}}
+.p::before{content:'';position:absolute;top:15px;left:15px;right:15px;bottom:15px;border:2px solid rgba(139,90,43,.3);border-radius:4px;pointer-events:none}
+.p::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.08'/%3E%3C/svg%3E");pointer-events:none;opacity:.6}
+.ws{position:absolute;top:-30px;right:40px;width:80px;height:80px;background:radial-gradient(circle at 30% 30%,#DC2626,#991B1B);border-radius:50%;box-shadow:0 5px 15px rgba(0,0,0,.4),inset 0 -5px 10px rgba(0,0,0,.3),inset 0 5px 10px rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;z-index:10;animation:sd 1s ease-out 1.5s both}
+.ws::before{content:'';position:absolute;width:60px;height:60px;border:2px solid rgba(255,255,255,.3);border-radius:50%}
+.ws span{font-size:2rem;filter:drop-shadow(0 2px 2px rgba(0,0,0,.5))}
+@keyframes sd{0%{transform:translateY(-100px) rotate(-180deg);opacity:0}60%{transform:translateY(10px) rotate(10deg)}80%{transform:translateY(-5px) rotate(-5deg)}100%{transform:translateY(0) rotate(0);opacity:1}}
+.lh{text-align:center;margin-bottom:2rem;position:relative;z-index:2}
+.ltt{font-family:'Great Vibes',cursive;font-size:3rem;color:var(--pd);margin-bottom:.5rem;text-shadow:1px 1px 2px rgba(0,0,0,.1)}
+.ld{width:60%;height:2px;background:linear-gradient(90deg,transparent,var(--pm),transparent);margin:1rem auto;position:relative}
+.ld::before,.ld::after{content:'✦';position:absolute;top:50%;transform:translateY(-50%);color:var(--pm);font-size:1rem}
+.ld::before{left:20%}.ld::after{right:20%}
+.lb{font-size:1.25rem;line-height:1.9;text-align:justify;position:relative;z-index:2}
+.lb p{margin-bottom:1.2rem;text-indent:2rem;opacity:0;animation:fit 1s ease forwards}
+.lb p:nth-child(1){animation-delay:2s}.lb p:nth-child(2){animation-delay:2.8s}.lb p:nth-child(3){animation-delay:3.6s}.lb p:nth-child(4){animation-delay:4.4s}.lb p:nth-child(5){animation-delay:5.2s}.lb p:nth-child(6){animation-delay:6s}
+@keyframes fit{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.hl{color:var(--pd);font-weight:600;text-shadow:0 0 5px rgba(107,33,168,.2)}
+.sg{text-align:right;margin-top:2rem;font-family:'Great Vibes',cursive;font-size:2rem;color:var(--pd);position:relative;z-index:2;opacity:0;animation:fit 1s ease 6.8s forwards}
+.si{font-size:1.5rem;margin-top:.5rem;font-family:initial}
+.hs{text-align:center;margin:4rem 0 2rem;position:relative;opacity:0;animation:fit 2s ease 7.5s forwards}
+.mh{font-size:5rem;display:inline-block;position:relative;filter:drop-shadow(0 0 20px rgba(220,38,38,.6));animation:hb 1.5s ease-in-out infinite}
+@keyframes hb{0%,100%{transform:scale(1)}14%{transform:scale(1.15)}28%{transform:scale(1)}42%{transform:scale(1.15)}70%{transform:scale(1)}}
+.hg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100px;height:100px;background:radial-gradient(circle,rgba(220,38,38,.4),transparent 70%);border-radius:50%;animation:hg 2s ease-in-out infinite alternate}
+@keyframes hg{from{transform:translate(-50%,-50%) scale(1);opacity:.6}to{transform:translate(-50%,-50%) scale(1.5);opacity:.2}}
+.ht{font-family:'Great Vibes',cursive;font-size:2rem;color:var(--pg);margin-top:1rem;text-shadow:0 0 10px rgba(168,85,247,.5)}
+.cs{text-align:center;margin:3rem 0;position:relative;opacity:0;animation:fit 2s ease 8s forwards}
+.cf{display:inline-block;position:relative;padding:15px;background:linear-gradient(135deg,var(--pd),var(--pm));border-radius:20px;box-shadow:0 0 40px rgba(107,33,168,.5),0 20px 40px rgba(0,0,0,.4)}
+.cf img{max-width:100%;width:500px;border-radius:12px;display:block}
+.cf::before{content:'';position:absolute;top:-3px;left:-3px;right:-3px;bottom:-3px;background:linear-gradient(45deg,var(--gm),var(--pl),var(--gl),var(--pg));border-radius:22px;z-index:-1;animation:br 4s linear infinite;background-size:400% 400%}
+@keyframes br{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.cc2{font-family:'Great Vibes',cursive;font-size:1.8rem;color:var(--gl);margin-top:1.5rem;text-shadow:0 0 15px rgba(245,158,11,.5)}
+.mf{text-align:center;padding:3rem 1rem;opacity:0;animation:fit 2s ease 9s forwards}
+.mf p{font-family:'Cinzel',serif;color:var(--pg);font-size:.9rem;letter-spacing:3px}
+.st{font-size:1.5rem;color:var(--gl);margin:1rem 0;animation:tw 2s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:.5;transform:scale(.95)}to{opacity:1;transform:scale(1.05)}}
+.fl{animation:fl 6s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+@media(max-width:600px){.lt{font-size:1.8rem}.ls{font-size:1.3rem}.cv{font-size:1.8rem}.ci{min-width:60px;padding:.7rem}.ltt{font-size:2.2rem}.lb{font-size:1.1rem}.p{padding:2.5rem 1.5rem}.ws{width:60px;height:60px;right:20px}.ws span{font-size:1.5rem}.cf img{width:100%}}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:#0a0514}::-webkit-scrollbar-thumb{background:linear-gradient(var(--pm),var(--pl));border-radius:5px}::-webkit-scrollbar-thumb:hover{background:linear-gradient(var(--pl),var(--gm))}
+</style>
+</head>
+<body>
+<canvas id="mc"></canvas>
+<div id="ls">
+<div class="lc">
+<h1 class="lt">Mensaje Magico</h1>
+<p class="ls">Para la hermosa Maibelyn</p>
+<div class="cc">
+<p class="cl">El hechizo se rompera en:</p>
+<div class="cd" id="cd">
+<div class="ci"><span class="cv" id="d">00</span><span class="cu">Dias</span></div>
+<div class="ci"><span class="cv" id="h">00</span><span class="cu">Horas</span></div>
+<div class="ci"><span class="cv" id="m">00</span><span class="cu">Min</span></div>
+<div class="ci"><span class="cv" id="s">00</span><span class="cu">Seg</span></div>
+</div>
+</div>
+<div class="ps">
+<p class="pl">O desbloquea con el hechizo secreto:</p>
+<div class="pw"><input type="password" class="pi" id="pi" placeholder="Di el encantamiento..."></div><br>
+<button class="ub" id="ub">Alohomora</button>
+<p class="em" id="em">El hechizo es incorrecto... intentalo de nuevo</p>
+</div>
+</div>
+</div>
+<div id="mp">
+<div class="mc">
+<div class="pw2 fl">
+<div class="p">
+<div class="ws"><span>💜</span></div>
+<div class="lh"><h2 class="ltt">Para la hermosa Maibelyn</h2><div class="ld"></div></div>
+<div class="lb">
+<p>Te escribo estas palabras para no trabarme al hablar y que se entienda bien todo lo que quiero decirte, jejeje. Sobre este regalo... se que a veces nos gustaria poder cambiar el pasado, pero eso no es posible. Lo que si podemos hacer es <span class="hl">vivir el presente y construir nuestro futuro</span>.</p>
+<p>Asi que, cuando lleves este collar, quiero que me recuerdes, pero sobre todo, quiero que te recuerdes a ti misma la gran persona que eres: <span class="hl">hermosa, radiante, inteligente, carinosa, respetuosa, divertida y muy amable</span>. Nada me alegra mas el dia que verte sonreir.</p>
+<p>De verdad mereces que cada dia de tu vida este lleno de felicidad. Se que nos acabamos de conocer y quizas estas palabras parezcan apresuradas o quizas no tengan peso, pero vienen de <span class="hl">lo mas profundo de mi corazon</span>.</p>
+<p>Son sinceras y son solo para ti, porque <span class="hl">siento que te quiero</span>.</p>
+<p>Espero que te guste tu regalo de victoria en el Arcade.</p>
+</div>
+<div class="sg">Atte: Levis<div class="si">✌️😉☺️😁</div></div>
+</div>
+</div>
+<div class="hs"><div style="position:relative;display:inline-block"><div class="hg"></div><div class="mh">💖</div></div><p class="ht">Mi corazon es tuyo</p></div>
+<div class="cs"><div class="cf"><img src="https://media.craiyon.com/2025-07-30/SzQHuShYQh-vlkAWHU5F0Q.webp" alt="Pareja magica abrazandose"></div><p class="cc2">Juntos en esta aventura magica</p></div>
+<div class="mf"><div class="st">✨ ✦ ✨</div><p>HECHIZO DE AMOR ETERNO</p><div class="st">✨ ✦ ✨</div></div>
+</div>
+</div>
+<script>
+const TD=new Date('2026-08-16T12:00:00');
+const MP='ExpectoPatronum';
+const ls=document.getElementById('ls'),mp=document.getElementById('mp'),pi=document.getElementById('pi'),ub=document.getElementById('ub'),em=document.getElementById('em');
+let iu=false,ci;
+function ct(){return new Date()>=TD}
+function vp(p){return p===MP}
+function up(){if(iu)return;iu=true;localStorage.setItem('mu','true');localStorage.setItem('mut',Date.now().toString());ls.classList.add('h');setTimeout(()=>{ls.style.display='none';mp.classList.add('v');document.body.style.overflow='auto';const p=document.querySelector('.p');p.style.animation='none';p.offsetHeight;p.style.animation='po 2s ease-out'},1500)}
+function au(){const p=pi.value.trim();if(ct()||vp(p)){up()}else{em.classList.add('s');pi.classList.add('sk');pi.style.borderColor='#EF4444';setTimeout(()=>{pi.classList.remove('sk');pi.style.borderColor=''},500);setTimeout(()=>em.classList.remove('s'),3000)}}
+ub.addEventListener('click',au);pi.addEventListener('keypress',e=>{if(e.key==='Enter')au()});
+function cpu(){if(localStorage.getItem('mu')==='true'&&Date.now()-parseInt(localStorage.getItem('mut')||'0')<3600000)up()}
+function uc(){const n=new Date(),d=TD-n;if(d<=0){document.getElementById('d').textContent='00';document.getElementById('h').textContent='00';document.getElementById('m').textContent='00';document.getElementById('s').textContent='00';if(!iu&&ls.style.display!=='none')up();return}const ds=Math.floor(d/864e5),hs=Math.floor(d%864e5/36e5),ms=Math.floor(d%36e5/6e4),ss=Math.floor(d%6e4/1e3);document.getElementById('d').textContent=String(ds).padStart(2,'0');document.getElementById('h').textContent=String(hs).padStart(2,'0');document.getElementById('m').textContent=String(ms).padStart(2,'0');document.getElementById('s').textContent=String(ss).padStart(2,'0')}
+const c=document.getElementById('mc'),x=c.getContext('2d');let ps=[],w,h;
+function rc(){w=c.width=window.innerWidth;h=c.height=window.innerHeight}
+class P{constructor(){this.r()}
+r(){this.x=Math.random()*w;this.y=Math.random()*h;this.s=Math.random()*3+.5;this.sx=(Math.random()-.5)*.5;this.sy=(Math.random()-.5)*.5;this.l=Math.random()*100+100;this.ml=this.l;const cl=['168,85,247','192,132,252','245,158,11','252,211,77','216,180,254'];this.c=cl[Math.floor(Math.random()*cl.length)];this.a=Math.random()*.5+.2}
+u(){this.x+=this.sx;this.y+=this.sy;this.l--;this.x+=Math.sin(this.y*.01)*.3;if(this.l<=0||this.x<0||this.x>w||this.y<0||this.y>h)this.r()}
+d(){const r=this.l/this.ml;x.beginPath();x.arc(this.x,this.y,this.s,0,Math.PI*2);x.fillStyle=`rgba(${this.c},${this.a*r})`;x.fill();x.beginPath();x.arc(this.x,this.y,this.s*2,0,Math.PI*2);x.fillStyle=`rgba(${this.c},${this.a*r*.3})`;x.fill()}}
+function ip(){ps=[];const pc=Math.min(150,w*h/8e3);for(let i=0;i<pc;i++)ps.push(new P)}
+function ap(){x.clearRect(0,0,w,h);ps.forEach(p=>{p.u();p.d()});requestAnimationFrame(ap)}
+window.addEventListener('resize',rc);rc();ip();ap();uc();ci=setInterval(uc,1e3);setTimeout(cpu,500);
+</script>
+</body>
+</html>
