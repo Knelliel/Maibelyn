@@ -1,6 +1,4 @@
-# Maibelyn.github.io
-Carta A Mai
-<!DOCTYPE html>
+# Maibelyn
 <html lang="es">
 <head>
 <meta charset="UTF-8">
